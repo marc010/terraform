@@ -17,7 +17,6 @@ resource "yandex_compute_instance" "instance" {
   name        = "${var.name}-${count.index+1}"
   hostname    = "${var.name}-${count.index+1}"
   platform_id = "${var.platform_id}"
-  zone        = "${var.zone}"
   folder_id   = "${var.folder_id}"
 
   resources {

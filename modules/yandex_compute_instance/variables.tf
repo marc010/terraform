@@ -43,9 +43,6 @@ variable "image" {
   default     = "ubuntu-2204-lts"
 }
 
-variable "zone" {
-  default = "ru_central1-a"
-}
 
 variable "folder_id" {
   default = ""
