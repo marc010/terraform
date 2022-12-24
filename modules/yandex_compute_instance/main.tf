@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    yandex = {
+      source = "yandex-cloud/yandex"
+    }
+  }
+  required_version = ">= 0.13"
+}
+
 data "yandex_compute_image" "image" {
   family = var.image
 }
