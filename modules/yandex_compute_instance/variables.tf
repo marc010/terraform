@@ -32,7 +32,7 @@ variable "subnet" {
   default     = ""
 }
 
-variable "net" {
+variable "nat" {
   description = "Subnet id"
   type        = bool
   default     = true
