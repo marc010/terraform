@@ -27,7 +27,7 @@ resource "yandex_compute_instance" "instance" {
 
   boot_disk {
     initialize_params {
-      image_id = data.yanex_compute_image.image.id
+      image_id = data.yandex_compute_image.image.id 
       size     = "${var.disk_size}"
     }
   }
