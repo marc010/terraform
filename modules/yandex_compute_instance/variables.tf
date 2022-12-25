@@ -5,7 +5,8 @@ variable "instance_count" {
 
 variable "name" {
   description = "Name for vm"
-  default     = "VM"
+  default     = "vm"
+  type        = string
 }
 
 variable "platform_id" {
